@@ -77,7 +77,7 @@ namespace ASP.NET_MVC_FormVerification.Controllers
 
 
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("372364996@qq.com", "dupeng1484");
+            client.Credentials = new System.Net.NetworkCredential("********@qq.com", "************");
             //注册的邮箱和密码 
             client.Host = "smtp.qq.com";
             object userState = msg;
